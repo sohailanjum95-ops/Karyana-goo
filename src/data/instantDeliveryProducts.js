@@ -1,0 +1,18 @@
+export const instantDeliveryProducts = [
+  { id: 'karyana-1', name: 'Rice (1kg)', category: 'Karyana', price: 80, image: '🌾', description: 'Premium quality basmati rice' },
+  { id: 'karyana-2', name: 'Wheat Flour (2kg)', category: 'Karyana', price: 120, image: '🌾', description: 'Fresh wheat flour' },
+  { id: 'karyana-3', name: 'Lentils (1kg)', category: 'Karyana', price: 150, image: '🫘', description: 'Premium lentils' },
+  { id: 'karyana-4', name: 'Mustard Oil (1L)', category: 'Karyana', price: 200, image: '🫗', description: 'Pure mustard oil' },
+  { id: 'snacks-1', name: 'Potato Chips', category: 'Snacks', price: 40, image: '🥔', description: 'Crispy potato chips' },
+  { id: 'snacks-2', name: 'Namkeen Mix', category: 'Snacks', price: 60, image: '🥒', description: 'Traditional namkeen mix' },
+  { id: 'snacks-3', name: 'Biscuits Pack', category: 'Snacks', price: 50, image: '🍪', description: 'Delicious biscuits' },
+  { id: 'snacks-4', name: 'Peanuts (500g)', category: 'Snacks', price: 70, image: '🥜', description: 'Roasted peanuts' },
+  { id: 'drinks-1', name: 'Cold Mango Lassi', category: 'Cold Drinks', price: 45, image: '🥤', description: 'Fresh mango lassi' },
+  { id: 'drinks-2', name: 'Chaach', category: 'Cold Drinks', price: 35, image: '🥛', description: 'Traditional chaach' },
+  { id: 'drinks-3', name: 'Lemonade (1L)', category: 'Cold Drinks', price: 50, image: '🍋', description: 'Refreshing lemonade' },
+  { id: 'drinks-4', name: 'Coconut Water', category: 'Cold Drinks', price: 60, image: '🥥', description: 'Pure coconut water' },
+  { id: 'groceries-1', name: 'Tomatoes (1kg)', category: 'Groceries', price: 40, image: '🍅', description: 'Fresh tomatoes' },
+  { id: 'groceries-2', name: 'Onions (1kg)', category: 'Groceries', price: 35, image: '🧅', description: 'Fresh onions' },
+  { id: 'groceries-3', name: 'Potatoes (2kg)', category: 'Groceries', price: 60, image: '🥔', description: 'Fresh potatoes' },
+  { id: 'groceries-4', name: 'Ginger (250g)', category: 'Groceries', price: 80, image: '🌱', description: 'Fresh ginger' },
+]

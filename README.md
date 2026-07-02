@@ -1,10 +1,118 @@
-# 📦 Hyperlocal Delivery Platform for Poonch
+# Poonch Delivery App 🚚
 
-A production-ready hyperlocal commerce and logistics solution tailored for small-town dynamics like Poonch. This platform connects local karyana (grocery) stores and retail shops (footwear/apparel) with regional consumers, offering instant delivery within the town and structured transit logistics for surrounding villages.
+A modern, fast delivery application built with React, Tailwind CSS, and Zustand for Poonch's local commerce needs.
 
-## ✨ Key Features
-* **Multi-Category Storefront:** Structured UI that isolates fast-moving daily essentials (Karyana/snacks) requiring speed, from lifestyle retail (Shoes) requiring sizing filters and browsing.
-* **"Bazaar Pick" (Custom Orders):** A flexible concierge module allowing users to place custom text or voice-based requests from any specific shop across Quila Market or the Main Bazaar.
-* **Bus Stand Route Logistics:** A localized delivery feature allowing riders to route and drop packages directly to specific local buses or Tata Sumos bound for nearby areas like Mandi, Surankote, and Chandak.
-* **Network-Resilient Syncing:** Lightweight architecture designed to queue user actions locally and sync seamlessly over erratic 3G/4G connections or edge networks.
-* **Local Trust Workflows:** Native support for Cash on Delivery (COD) tracking, local UPI deep-linking, and transparent rider profiling to maximize community trust.
+## Features
+
+### ⚡ Instant Delivery
+- **Karyana Items**: Fresh groceries and daily essentials
+- **Snacks**: Popular local and branded snacks
+- **Cold Drinks**: Refreshing beverages
+- **Groceries**: Fresh fruits and vegetables
+- **Voice Ordering**: Order using voice commands
+- **Real-time Search**: Instant filtering by category and name
+
+### 👕 Lifestyle & Fashion
+- **Footwear**: Shoes, sneakers, sandals, and loafers
+- **Clothing**: T-shirts, jeans, and casual wear
+- **Product Ratings**: Star ratings and customer reviews
+- **Size Selection**: Multiple size options per product
+- **Brand Filtering**: Shop by your favorite brands
+
+### 🛒 Shopping Cart
+- **Multi-category Support**: Combine instant delivery and lifestyle items
+- **Quantity Management**: Easily add/remove items
+- **Price Calculation**: Real-time total with tax and delivery fee
+- **Order Summary**: Clear breakdown of costs
+
+### 📍 Order Tracking
+- **Real-time Status**: Processing → Preparing → On the Way → Delivered
+- **Delivery Partner Info**: Driver details and contact
+- **ETA Updates**: Estimated delivery time
+- **Order Timeline**: Visual progress indicator
+
+## Tech Stack
+
+- **Frontend**: React 18
+- **Routing**: React Router DOM v6
+- **State Management**: Zustand
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Build Tool**: Vite
+
+## Installation
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+# Build for production
+npm run build
+
+# Preview production build
+npm run preview
+```
+
+## Project Structure
+
+```
+src/
+├── components/
+│   ├── Navigation.jsx
+│   ├── InstantDeliverySection.jsx
+│   └── LifestyleSection.jsx
+├── pages/
+│   ├── HomePage.jsx
+│   ├── CartPage.jsx
+│   └── OrderTrackingPage.jsx
+├── store/
+│   └── cartStore.js
+├── data/
+│   ├── instantDeliveryProducts.js
+│   └── lifestyleProducts.js
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Features in Detail
+
+### Voice Ordering
+Click the microphone button to enable voice order mode and speak your orders.
+
+### Real-time Cart Updates
+Cart count updates in real-time as you add/remove items. Navigate between instant delivery and lifestyle products seamlessly.
+
+### Responsive Design
+Fully responsive design optimized for mobile, tablet, and desktop screens.
+
+### Order Management
+- Add items from multiple categories
+- View real-time pricing with tax and delivery fees
+- Track orders with animated status updates
+- Contact delivery partner directly
+
+## Future Enhancements
+
+- Payment gateway integration
+- User authentication and profiles
+- Order history and wishlist
+- Real-time GPS tracking
+- Push notifications
+- Restaurant partnerships
+- Multiple language support
+
+## License
+
+MIT License - feel free to use this project for commercial purposes.
+
+## Support
+
+For issues or suggestions, please contact the development team.
+
+---
+
+**Built with ❤️ for Poonch Community**
